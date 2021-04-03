@@ -1,8 +1,9 @@
-import img1 from "./assets/img1.jpeg";
-import img2 from "./assets/img2.jpeg";
-import img3 from "./assets/img3.jpeg";
-import img4 from "./assets/img4.jpeg";
-import img5 from "./assets/img5.jpeg";
+// import img1 from "./assets/img1.jpeg";
+// import img2 from "./assets/img2.jpeg";
+// import img3 from "./assets/img3.jpeg";
+// import img4 from "./assets/img4.jpeg";
+// import img5 from "./assets/img5.jpeg";
+// import uuid from "react-uuid";
 
 const data = {
   products: [
@@ -10,7 +11,7 @@ const data = {
       _id: 1,
       name: "Blush Pink Sofa",
       category: "Furniture",
-      image: img1,
+      image: "/images/img1.jpeg",
       price: 500,
       numReview: 3,
       brand: "Vinotti",
@@ -21,7 +22,7 @@ const data = {
       _id: 2,
       name: "Blush Pink Table",
       category: "Furniture",
-      image: img2,
+      image: "/images/img2.jpeg",
       price: 200,
       numReview: 5,
       brand: "Cellini",
@@ -32,7 +33,7 @@ const data = {
       _id: 3,
       name: "Natural Marble Table",
       category: "Furniture",
-      image: img3,
+      image: "/images/img3.jpeg",
       price: 500,
       numReview: 2,
       brand: "Jakomo",
@@ -43,7 +44,7 @@ const data = {
       _id: 4,
       name: "Transparent Modern Chair",
       category: "Furniture",
-      image: img4,
+      image: "/images/img4.jpeg",
       price: 50,
       numReview: 20,
       brand: "Lumiere",
@@ -54,7 +55,7 @@ const data = {
       _id: 5,
       name: "Carrie Plate",
       category: "Tableware",
-      image: img5,
+      image: "/images/img5.jpeg",
       price: 10,
       numReview: 27,
       brand: "Bellagio",

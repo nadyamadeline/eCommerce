@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.scss";
-import ProductCard from "../../components/Product/ProductCard";
+
+import ProductsList from "../../components/Product/ProductsList";
 
 function Home() {
   return (
@@ -14,7 +15,8 @@ function Home() {
       </div>
       <div className="featured">
         <h2>Our Products</h2>
-        <ProductCard />
+
+        <ProductsList />
       </div>
     </div>
   );
